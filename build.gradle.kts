@@ -42,6 +42,7 @@ dependencies {
     implementation("mysql:mysql-connector-java:$mysql_connector")
     implementation("org.ktorm:ktorm-core:3.5.0")
     implementation("org.ktorm:ktorm-support-mysql:3.5.0")
+    implementation("org.kodein.di:kodein-di:7.19.0")
     testImplementation("io.ktor:ktor-server-tests-jvm")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
 }
